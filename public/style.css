@@ -17,13 +17,14 @@ h2{
     border: 1px solid #ddd;
     box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
     border-radius: 2px;
+    float: right;
 }
 
 #chat-window{
     height: 400px;
     overflow: auto;
-    background: #f9f9f9;
-    background: #1c2f3f;
+    background:linear-gradient(to top, #30cfd0 0%, #330867 100%);
+
 }
 #messageArea{
             display:none;
@@ -36,13 +37,15 @@ h2{
 }
 #output p{
     padding: 6px 0px;
-    margin: 0 20px;
+    margin: 3px 21px;
     border-bottom: 1px solid #e9e9e9;
-    color: white;
-    background: #007bff;
+    color: black;
+    background: white;
     border-radius: 48px;
     width: 140px;
     border: none;
+    box-sizing: border-box;
+    padding: 6px 7px 8px 9px;
 }
 
 #feedback p{
@@ -50,12 +53,14 @@ h2{
     padding: 14px 0px;
     margin: 0 20px;
 }
-
+#output{
+    margin: 10px 0;
+}
 #output strong{
     color: #575ed8;
 }
 #output strong{
-    color: #575ed8;
+    color: #30c2c9;
 }
 #user-list-item{
     color: #000;
