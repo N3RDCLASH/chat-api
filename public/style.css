@@ -2,7 +2,7 @@ body{
     font-family: 'Nunito';
     margin-top:30px;
     color: white!important;
-    background: #000!important;
+    background: #25606c !important;
 }
 
 h2{
@@ -14,10 +14,10 @@ h2{
 #chat{
     max-width: 600px;
     margin: 30px auto;
-    border: 1px solid #ddd;
-    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+    /*! border: 1px solid #ddd; */
+    box-shadow: 6px 8px 4px rgba(0,0,0,0.05);
     border-radius: 2px;
-    float: right;
+    /*! float: right; */
 }
 
 #chat-window{
@@ -25,6 +25,7 @@ h2{
     overflow: auto;
     background:linear-gradient(to top, #30cfd0 0%, #330867 100%);
 
+    margin-top: 5px;
 }
 #messageArea{
             display:none;
@@ -65,6 +66,10 @@ h2{
 #user-list-item{
     color: #000;
     margin: 4px 10px;
+}
+#messageForm{
+    display: block;
+    margin: 0 auto;
 }
 .form-group{
 width: 30%;
